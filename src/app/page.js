@@ -1,8 +1,9 @@
+import Header from "@/components/common/Header";
 
 const page = () => {
   return (
-    <div className=" font-public">
-      page
+    <div>
+      <Header/>
     </div>
   );
 };

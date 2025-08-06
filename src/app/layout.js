@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${public_sans.variable} antialiased`}
+        className={`${public_sans.variable} antialiased font-public`}
       >
         {children}
       </body>
